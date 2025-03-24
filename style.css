@@ -11,7 +11,6 @@ font-family: "Poppins", sans-serif;
 } 
 :root { --main-color: #fe5b3d; --second-color: #ffac38; --text-color: #444; --gradient: linear-gradient(#fe5b3d, #ffac38); 
 } 
-/* Custom Scroll Bar */ 
 html::-webkit-scrollbar { 
 width: 0.5rem; 
 } 
@@ -155,9 +154,6 @@ font-weight: 500;
   .btn:hover{
     background-color: var(--main-color);
   }
-  /* .service{
-   
-  } */
   .service-icons{
     display:flex;
     align-items:center;
@@ -192,8 +188,8 @@ font-weight: 500;
     font-weight: 500;
   }
   #location {
-    color: var(--main-color); /* Change icon color */
-    font-size: 25px; /* Change icon size */
+    color: var(--main-color); 
+    font-size: 25px; 
     
 }
 .icon1 {
@@ -207,8 +203,8 @@ font-weight: 500;
   color: rgb(243, 243, 247); 
 }
 #calender {
-  color: rgb(243, 243, 247); /* Change icon color */
-  font-size: 25px; /* Change icon size */
+  color: rgb(243, 243, 247); 
+  font-size: 25px; 
   
 }
 .icon2 i{
@@ -218,9 +214,9 @@ font-weight: 500;
   margin-bottom:15px;
 }
 #calenderstar {
-  color:var(--main-color); /* Change icon color */
+  color:var(--main-color); 
   font-size: 25px;
-   /* Change icon size */
+ 
   
 }
 .icon3 {
@@ -249,7 +245,7 @@ margin-bottom:15px;
 }
 .availableOnRent-container .box .box-img {
   width: 100%;
-  height: 200px; /* Set specific height for image container */
+  height: 200px; 
   border-radius: 1rem;
 }
 
@@ -319,14 +315,13 @@ margin-bottom:15px;
 .about-text .btn:hover{
   background: var(--main-color);
 }
-/* Section styling */
+
 .reviews {
   padding: 2rem;
   text-align: center;
   background-color: #f9f9f9;
 }
 
-/* Heading styling */
 .reviews .heading h3 {
   color: #333;
   font-size: 1rem;
@@ -340,7 +335,7 @@ margin-bottom:15px;
   margin: 0.5rem 0;
 }
 
-/* Review container grid */
+
 .reviews-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -349,7 +344,6 @@ margin-bottom:15px;
   justify-items: center;
 }
 
-/* Review box styling */
 .review-box {
   background-color: #ffff;
   border-radius: 15px;
@@ -357,15 +351,14 @@ margin-bottom:15px;
   box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
   text-align: center;
   max-width: 300px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition added */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-/* Hover effect on review box */
 .review-box:hover {
-  transform: translateY(-10px); /* Moves the box up slightly */
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Increases the shadow on hover */
+  transform: translateY(-10px); 
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
-/* Customer image circular style */
+
 .customer-img {
   width: 80px;
   height: 80px;
@@ -380,34 +373,32 @@ margin-bottom:15px;
   object-fit: cover;
 }
 
-/* Customer name styling */
+
 .review-box h3 {
   font-size: 1.2rem;
   color: #333;
   margin: 0.5rem 0;
 }
 
-/* Star rating styling */
 .stars span {
   color: #f39c12;
   font-size: 1.2rem;
 }
 
-/* Review text styling */
 .review-box p {
   font-size: 0.95rem;
   color: #666;
   line-height: 1.5;
 }
-/* Review box hidden initially */
+
 .review-box {
   opacity: 0;
-  transform: translateY(30px); /* Start slightly below */
-  transition: opacity 0.6s ease, transform 0.6s ease; /* Smooth transition */
+  transform: translateY(30px); 
+  transition: opacity 0.6s ease, transform 0.6s ease; 
 }
 
-/* Review box visible state (applied by JS) */
+
 .review-box.show {
   opacity: 1;
-  transform: translateY(0); /* Slide into place */
+  transform: translateY(0); 
 }
